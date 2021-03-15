@@ -41,7 +41,6 @@ lass AuthController < ApplicationController
       else
         render json: response
       end
-
-
     end
+    
 end
