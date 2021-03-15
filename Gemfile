@@ -15,6 +15,10 @@ gem 'puma', '~> 5.2.2'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'aws-sdk-cognitoidentity'
+gem 'aws-sdk-cognitoidentityprovider'
+gem 'figaro'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 

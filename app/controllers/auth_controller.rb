@@ -1,4 +1,4 @@
-lass AuthController < ApplicationController
+class AuthController < ApplicationController
     def sign_in
       user_object = {
         USERNAME: params[:email],
@@ -42,5 +42,5 @@ lass AuthController < ApplicationController
         render json: response
       end
     end
-    
+
 end
