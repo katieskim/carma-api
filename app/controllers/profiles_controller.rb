@@ -16,7 +16,8 @@ class ProfilesController < ApplicationController
 
     # GET /profiles/:id
     def show
-        json_response(@profile)
+        @profile = Profile.find_by(id: params[:id])
+        render json: @profile, status: :ok
     end
 
     # PATCH /profiles/:id
